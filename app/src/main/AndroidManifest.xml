@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.techtown.lastpoli">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="폴리텍 학식"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6708867995301624~8242046123"/>
+
+        <activity android:name=".gyeongsang"  android:configChanges="orientation|screenSize"/>
+        <activity android:name=".jeonla"  android:configChanges="orientation|screenSize"/>
+        <activity android:name=".gangwon" android:configChanges="orientation|screenSize" />
+        <activity android:name=".chungcheong" android:configChanges="orientation|screenSize" />
+        <activity android:name=".seoul"  android:configChanges="orientation|screenSize"/>
+        <activity android:name=".MainActivity"
+            android:configChanges="orientation|screenSize"></activity>
+        <activity android:name=".Intro"
+            android:configChanges="orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

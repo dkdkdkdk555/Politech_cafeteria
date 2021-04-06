@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".jeonla">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:autoText="false"
+        android:background="#1EB169"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="10dp"
+        android:text="폴리텍 학식"
+        android:textAlignment="textStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textDirection="ltr"
+        android:textSize="36sp"
+        android:textStyle="normal"
+        android:typeface="normal"
+        android:verticalScrollbarPosition="right" />
+
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="onButton26Clicked"
+        android:text="광주캠퍼스" />
+
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="onButton27Clicked"
+        android:text="김제캠퍼스" />
+
+    <Button
+        android:id="@+id/button28"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="onButton28Clicked"
+        android:text="목포캠퍼스" />
+
+    <Button
+        android:id="@+id/button29"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="onButton29Clicked"
+        android:text="익산캠퍼스" />
+
+    <Button
+        android:id="@+id/button30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="onButton30Clicked"
+        android:text="순천캠퍼스" />
+
+    <Button
+        android:id="@+id/button25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="onButton25Clicked"
+        android:text="신기술교육원" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="1"
+        android:visibility="visible"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-6708867995301624/7863799846"
+        tools:visibility="visible"></com.google.android.gms.ads.AdView>
+
+</LinearLayout>

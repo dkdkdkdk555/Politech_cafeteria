@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".gyeongsang">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:autoText="false"
+        android:background="#00B0FF"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="10dp"
+        android:text="폴리텍 학식"
+        android:textAlignment="textStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textDirection="ltr"
+        android:textSize="36sp"
+        android:textStyle="normal"
+        android:typeface="normal"
+        android:verticalScrollbarPosition="right" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="onButton20Clicked"
+        android:text="대구캠퍼스" />
+
+    <Button
+        android:id="@+id/button24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="onButton24Clicked"
+        android:text="구미캠퍼스" />
+
+    <Button
+        android:id="@+id/button31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="onButton31Clicked"
+        android:text="달성캠퍼스" />
+
+    <Button
+        android:id="@+id/button32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="onButton32Clicked"
+        android:text="포항캠퍼스" />
+
+    <Button
+        android:id="@+id/button33"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="onButton33Clicked"
+        android:text="영주캠퍼스" />
+
+    <Button
+        android:id="@+id/button34"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="onButton34Clicked"
+        android:text="영남융합기술캠퍼스" />
+
+    <Button
+        android:id="@+id/button35"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="onButton35Clicked"
+        android:text="창원캠퍼스" />
+
+    <Button
+        android:id="@+id/button36"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="onButton36Clicked"
+        android:text="부산캠퍼스" />
+
+    <Button
+        android:id="@+id/button37"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="onButton37Clicked"
+        android:text="울산캠퍼스" />
+
+    <Button
+        android:id="@+id/button38"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="onButton38Clicked"
+        android:text="동부산캠퍼스" />
+
+    <Button
+        android:id="@+id/button39"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="onButton39Clicked"
+        android:text="진주캠퍼스" />
+
+    <Button
+        android:id="@+id/button40"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="onButton40Clicked"
+        android:text="항공캠퍼스" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="1"
+        android:visibility="visible"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-6708867995301624/7863799846"
+        tools:visibility="visible"></com.google.android.gms.ads.AdView>
+
+</LinearLayout>
