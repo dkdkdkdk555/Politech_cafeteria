@@ -1,5 +1,8 @@
 # Politech_cafeteria
 
+-구글 플레이 주소
+https://play.google.com/store/apps/details?id=org.techtown.lastpoli
+
 ## 🍀개발기간
 2020.4.7 ~ 2020.4.9 (3일)
 
